@@ -4,8 +4,7 @@ from app.utils import get_or_ask
 
 ALLOWED_USER_ID = get_or_ask('telegram_user_id', 'Введіть id телеграм користувача: ')
 
-#ALLOWED_USER_ID = 6676450599 # первый его
-#ALLOWED_USER_ID = 8087818135 # второй его
+
 # Здесь нужно вставить реальный ID
 
 def check_user(func):
